@@ -1,0 +1,78 @@
+/* studentlist styling */
+ .studentList {
+    margin: 0 auto;
+   box-shadow: 0 0 30px 0 ;
+    height: 300px;
+    width: 410px;
+    background-color: rgb(231, 231, 231);
+  }
+  input {
+    margin: 30px 20px 0;
+    height: 30px;
+    width: 90%;
+    padding: 0;
+    outline: none;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    border-bottom: 1px solid #000;
+	  font-size: 1.1rem;
+	  transition: .3s;
+  }
+  button {
+ 
+    border-radius: 6px;
+    margin: 20px 15px 0;
+    height: 40px;
+    width: 170px;
+    color: #fff;
+    padding: 0;
+    outline: none;
+	cursor: pointer;
+	transition: .3s;
+  border: none;
+  }
+  .button {
+    background-color: rgba(26, 26, 204, 0.582);
+  }
+  .button:hover {
+    background-color: rgb(26, 26, 204);
+  }
+  .reset {
+    background-color: rgb(189, 42, 42);
+  }
+  .reset:hover {
+    background-color: rgb(255, 0, 0);
+  }
+
+  /* studentpage styling */
+  .studentPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  
+  .table-bordered {
+  
+    border-width: 1px 1px 1px 0px;
+    border-style: solid solid solid none;
+    border-color: #fff #fff #fff -moz-use-text-color;
+    border-collapse: collapse;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .table-bordered th,
+  .table-bordered td {
+    min-width: 150px;
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #fff;
+  }
+
+  .table-bordered th {
+    background-color: rgb(88, 83, 83);
+    color: #fff;
+  }
